@@ -33,7 +33,7 @@ public class user {
    // @RequestMapping(value = "/test",method = RequestMethod.GET)
    @RequestMapping({ "/hello" })
     public String firstPage(){
-        return "hello World";
+        return "hello World from master";
     }
 
     @RequestMapping(value = "/authenticate" , method = RequestMethod.POST)
